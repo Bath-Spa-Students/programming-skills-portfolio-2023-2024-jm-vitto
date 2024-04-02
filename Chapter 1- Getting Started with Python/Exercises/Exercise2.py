@@ -1,8 +1,6 @@
-# Getting the python version
-
-import sys
+import platform
 
 print("Python version:")
-print(sys.version)
+print(platform.python_version())
 print("Version info:")
-print(sys.version_info)
+print(platform.python_version_tuple())
